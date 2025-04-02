@@ -10,9 +10,9 @@ int main () {
     printf("Estado: ");
     scanf(" %c", &estado);
     printf("código: ");
-    scanf("%s", codigodacarta);
+    scanf("%s", &codigodacarta);
     printf("Nome da cidade: ");
-    scanf("%s", cidade);
+    scanf("%s", &cidade);
     printf("população: ");
     scanf("%d", &populacao);
     printf("Área: ");
@@ -26,9 +26,9 @@ int main () {
     printf("Estado: ");
     scanf(" %c", &estado2);
     printf("código: ");
-    scanf("%s", codigodacarta2);
+    scanf("%s", &codigodacarta2);
     printf("Nome da cidade: ");
-    scanf("%s", cidade2);
+    scanf("%s", &cidade2);
     printf("população: ");
     scanf("%d", &populacao2);
     printf("Área: ");
@@ -39,7 +39,7 @@ int main () {
     scanf("%d", &pontoturisticos2);
 
     printf("\ncarta1\n");
-    printf("estado : %c\n", estado);
+    printf("estado: %c\n", estado);
     printf("código: %s\n", codigodacarta);
     printf("nome da cidade: %s\n", cidade);
     printf("população: %d\n", populacao);
